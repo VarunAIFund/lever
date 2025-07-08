@@ -1,0 +1,103 @@
+📊 SEARCH ENGINE TEST REPORT
+============================================================
+Total Tests: 60
+Passed: 42 (70.0%)
+Failed: 18 (30.0%)
+
+❌ FAILED TESTS:
+----------------------------------------
+Query: 'CTO with AI startup experience'
+Message: ❌ FAIL - Found 1/1 expected candidates, expected top: Amol Kelkar, got: Yue Ning
+Expected: ['Amol Kelkar']
+Actual: ['Yue Ning', 'Amol Kelkar', 'Kirill Kireyev, PhD']
+
+Query: 'Chief Data Scientist with deep learning experience'
+Message: ❌ FAIL - Found 0/1 expected candidates, expected top: Eitan Anzenberg, got: Yefei Peng
+Expected: ['Eitan Anzenberg']
+Actual: ['Yefei Peng', 'Yue Ning', 'Kirill Kireyev, PhD']
+
+Query: 'Machine learning leader with computer vision background'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Eitan Anzenberg']
+Actual: ['Yefei Peng', 'Yue Ning', 'Kirill Kireyev, PhD']
+
+Query: 'Data science director with patents'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Eitan Anzenberg']
+Actual: ['Yefei Peng', 'Kirill Kireyev, PhD', 'Vid Jain']
+
+Query: 'NLP expert with production experience'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Eitan Anzenberg']
+Actual: ['Yefei Peng', 'Kirill Kireyev, PhD', 'Yue Ning']
+
+Query: 'PhD in physics with ML background'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Eitan Anzenberg']
+Actual: ['Vid Jain', 'Yefei Peng', 'Kirill Kireyev, PhD']
+
+Query: 'Head of AI with generative models experience'
+Message: ❌ FAIL - Found 0/1 expected candidates, expected top: Hakan Gunturkun, got: Yefei Peng
+Expected: ['Hakan Gunturkun']
+Actual: ['Yefei Peng', 'Amol Kelkar', 'Yue Ning']
+
+Query: 'Co-founder with LLM background'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Hakan Gunturkun']
+Actual: ['Vid Jain', 'Amol Kelkar', 'Yue Ning']
+
+Query: 'AI engineer with diffusion models'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Hakan Gunturkun']
+Actual: ['Yefei Peng', 'Kirill Kireyev, PhD', 'Amol Kelkar']
+
+Query: 'PhD with startup experience'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Hakan Gunturkun']
+Actual: ['Yue Ning', 'Kirill Kireyev, PhD', 'Vid Jain']
+
+Query: 'Machine learning researcher with production experience'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Hakan Gunturkun']
+Actual: ['Yefei Peng', 'Kirill Kireyev, PhD', 'Yue Ning']
+
+Query: 'AI entrepreneur with NLP background'
+Message: ❌ FAIL - Found 1/1 expected candidates, expected top: Kirill Kireyev, got: Yue Ning
+Expected: ['Kirill Kireyev']
+Actual: ['Yue Ning', 'Yefei Peng', 'Amol Kelkar']
+
+Query: 'Director of AI with academic background'
+Message: ❌ FAIL - Found 1/1 expected candidates, expected top: Mohamed El-Geish, got: Yefei Peng
+Expected: ['Mohamed El-Geish']
+Actual: ['Yefei Peng', 'Mohamed El-Geish', 'Kirill Kireyev, PhD']
+
+Query: 'CEO with AI platform experience'
+Message: ❌ FAIL - Found 0/1 expected candidates, expected top: Vid Jain, got: Yue Ning
+Expected: ['Vid Jain']
+Actual: ['Yue Ning', 'Amol Kelkar', 'Kirill Kireyev, PhD']
+
+Query: 'Enterprise AI deployment expert'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Vid Jain']
+Actual: ['Mohamed El-Geish', 'Yefei Peng', 'Yue Ning']
+
+Query: 'Engineering leader with machine learning background'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Zackary Long']
+Actual: ['Yefei Peng', 'Yue Ning', 'Kirill Kireyev, PhD']
+
+Query: 'Engineering manager with AI recommendations'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Zackary Long']
+Actual: ['Yefei Peng', 'Yue Ning', 'Amol Kelkar']
+
+Query: 'Marketing manager'
+Message: ❌ FAIL - Unexpected high similarity (0.309)
+Expected: []
+Actual: ['Zackary Long']
+
+📈 RESULTS BY CATEGORY:
+----------------------------------------
+Individual Candidate Tests: 37/55 passed
+Cross-Candidate Tests: 5/5 passed
+Edge Case Tests: 4/5 passed

@@ -1,0 +1,119 @@
+📊 HYBRID SEARCH ENGINE TEST REPORT
+============================================================
+Total Tests: 74
+Passed: 58 (78.4%)
+Failed: 16 (21.6%)
+
+🔍 AVERAGE SCORES:
+Combined Score: 0.266
+Semantic Score: 0.433
+Keyword Score: 0.101
+
+❌ FAILED TESTS:
+----------------------------------------
+Query: 'CTO with AI startup experience'
+Message: ❌ FAIL - Found 1/1 expected candidates, expected top: Amol Kelkar, got: Yue Ning
+Expected: ['Amol Kelkar']
+Actual: ['Yue Ning', 'Amol Kelkar', 'Kirill Kireyev, PhD']
+Scores - Combined: 0.304, Semantic: 0.554, Keyword: 0.054
+
+Query: 'Chief Data Scientist with deep learning experience'
+Message: ❌ FAIL - Found 0/1 expected candidates, expected top: Eitan Anzenberg, got: Yefei Peng
+Expected: ['Eitan Anzenberg']
+Actual: ['Yefei Peng', 'Kirill Kireyev, PhD', 'Mohamed El-Geish']
+Scores - Combined: 0.302, Semantic: 0.550, Keyword: 0.055
+
+Query: 'Machine learning leader with computer vision background'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Eitan Anzenberg']
+Actual: ['Yefei Peng', 'Kirill Kireyev, PhD', 'Mohamed El-Geish']
+Scores - Combined: 0.301, Semantic: 0.491, Keyword: 0.110
+
+Query: 'Data science director with patents'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Eitan Anzenberg']
+Actual: ['Yefei Peng', 'Vid Jain', 'Kirill Kireyev, PhD']
+Scores - Combined: 0.246, Semantic: 0.480, Keyword: 0.011
+
+Query: 'NLP expert with production experience'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Eitan Anzenberg']
+Actual: ['Yefei Peng', 'Kirill Kireyev, PhD', 'Yue Ning']
+Scores - Combined: 0.237, Semantic: 0.421, Keyword: 0.053
+
+Query: 'PhD in physics with ML background'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Eitan Anzenberg']
+Actual: ['Vid Jain', 'Yefei Peng', 'Kirill Kireyev, PhD']
+Scores - Combined: 0.305, Semantic: 0.427, Keyword: 0.184
+
+Query: 'Head of AI with generative models experience'
+Message: ❌ FAIL - Found 0/1 expected candidates, expected top: Hakan Gunturkun, got: Amol Kelkar
+Expected: ['Hakan Gunturkun']
+Actual: ['Amol Kelkar', 'Yefei Peng', 'Mohamed El-Geish']
+Scores - Combined: 0.228, Semantic: 0.443, Keyword: 0.014
+
+Query: 'Co-founder with LLM background'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Hakan Gunturkun']
+Actual: ['Amol Kelkar', 'Vid Jain', 'Yue Ning']
+Scores - Combined: 0.227, Semantic: 0.390, Keyword: 0.063
+
+Query: 'AI engineer with diffusion models'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Hakan Gunturkun']
+Actual: ['Yue Ning', 'Mohamed El-Geish', 'Yefei Peng']
+Scores - Combined: 0.169, Semantic: 0.297, Keyword: 0.042
+
+Query: 'PhD with startup experience'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Hakan Gunturkun']
+Actual: ['Kirill Kireyev, PhD', 'Yue Ning', 'Vid Jain']
+Scores - Combined: 0.253, Semantic: 0.464, Keyword: 0.043
+
+Query: 'Machine learning researcher with production experience'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Hakan Gunturkun']
+Actual: ['Yefei Peng', 'Kirill Kireyev, PhD', 'Mohamed El-Geish']
+Scores - Combined: 0.328, Semantic: 0.525, Keyword: 0.132
+
+Query: 'AI entrepreneur with NLP background'
+Message: ❌ FAIL - Found 1/1 expected candidates, expected top: Kirill Kireyev, got: Yue Ning
+Expected: ['Kirill Kireyev']
+Actual: ['Yue Ning', 'Yefei Peng', 'Kirill Kireyev, PhD']
+Scores - Combined: 0.301, Semantic: 0.512, Keyword: 0.089
+
+Query: 'CEO with AI platform experience'
+Message: ❌ FAIL - Found 0/1 expected candidates, expected top: Vid Jain, got: Yue Ning
+Expected: ['Vid Jain']
+Actual: ['Yue Ning', 'Amol Kelkar', 'Kirill Kireyev, PhD']
+Scores - Combined: 0.302, Semantic: 0.570, Keyword: 0.034
+
+Query: 'Founder with machine learning operations background'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Vid Jain']
+Actual: ['Yefei Peng', 'Kirill Kireyev, PhD', 'Mohamed El-Geish']
+Scores - Combined: 0.360, Semantic: 0.539, Keyword: 0.180
+
+Query: 'Enterprise AI deployment expert'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Vid Jain']
+Actual: ['Mohamed El-Geish', 'Yefei Peng', 'Yue Ning']
+Scores - Combined: 0.189, Semantic: 0.377, Keyword: 0.000
+
+Query: 'Fintech executive with ML background'
+Message: ❌ FAIL - Found 0/1 expected candidates
+Expected: ['Vid Jain']
+Actual: ['Zackary Long', 'Yefei Peng', 'Yue Ning']
+Scores - Combined: 0.226, Semantic: 0.434, Keyword: 0.018
+
+📈 RESULTS BY CATEGORY:
+----------------------------------------
+Individual Candidate Tests: 49/65 passed
+Cross-Candidate Tests: 9/9 passed
+Edge Case Tests: 6/6 passed
+
+🔬 HYBRID SEARCH INSIGHTS:
+----------------------------------------
+Semantic-dominant results: 65 queries
+Example: 'CTO with AI startup experience' (Semantic: 0.554, Keyword: 0.054)
